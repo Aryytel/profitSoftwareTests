@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dd04c41-ce25-4b78-9f84-a8eba1791c89" name="Default Changelist" comment="profit software test">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/iti0050.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL01A_14/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL01A_14/out/production/AL01A_14/ee/ttu/algoritmid/fibonacci/FibonacciB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03A_14/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03A_14/out/production/AL03A_14/ee/ttu/algoritmid/queue/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03A_14/out/production/AL03A_14/ee/ttu/algoritmid/queue/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03A_14/out/production/AL03A_14/ee/ttu/algoritmid/queue/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03A_14/src/ee/ttu/algoritmid/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03B_14/out/production/AL03B_14/ee/ttu/algoritmid/queue/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03B_14/out/production/AL03B_14/ee/ttu/algoritmid/queue/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL03B_14/src/ee/ttu/algoritmid/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/AL05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/out/production/AL05/ee/ttu/algoritmid/tsp/GreedyTSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/out/production/AL05/ee/ttu/algoritmid/tsp/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/src/ee/ttu/algoritmid/tsp/GreedyTSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL05/src/ee/ttu/algoritmid/tsp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL06/out/production/AL06/ee/ttu/algoritmid/friends/AL06$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL06/out/production/AL06/ee/ttu/algoritmid/friends/AL06$UndirectedGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL06/out/production/AL06/ee/ttu/algoritmid/friends/AL06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL06/out/production/AL06/ee/ttu/algoritmid/friends/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AL06/src/ee/ttu/algoritmid/friends/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW02.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW03.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW03.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW03/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW03/src/ee/ttu/algoritmid/labyrinth.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Dancer$Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Dancer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/DancerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Dancers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/HW01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW03/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1381938546">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="15" />
+          <entry key="robot" value="1569" />
+          <entry key="txt" value="59" />
+          <entry key="xml" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="15" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Robot Feature" value="1569" />
+          <entry key="XML" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="2" />
+          <entry key="robot" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
+          <entry key="Robot Feature" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/profitSoftwareTests.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="RobotTestCaseFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/openGoogleTest.robot" />
+        <option value="$PROJECT_DIR$/src/main/java/com/profitSoftware/robot/App.java" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/search/openSomethingInFolder.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/search/unsuccesfulSearchTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/search/helpSpreadTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/search/aboutPageTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/search/jumpUpTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/jumpUpTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot" />
+        <option value="$PROJECT_DIR$/src/main/java/com/profitSoftware/robot/helpSpreadTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot" />
+        <option value="$PROJECT_DIR$/src/main/java/com/profitSoftware/robot/aboutPageTest.robot" />
+        <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/aboutPageTest.robot" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaRobot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JavaRobot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553783116345" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/profitSoftwareTests" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\IdeaProjects" />
+      <recent name="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo" />
+      <recent name="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\main\java\com\profitSoftware\robot" />
+      <recent name="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\java\com\profitSoftware\robot" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/profitSoftwareTests/target/robotframework-reports/log.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="robotframework:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="robotframework:run" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.log.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dd04c41-ce25-4b78-9f84-a8eba1791c89" name="Default Changelist" comment="" />
+      <created>1553608910118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553608910118</updated>
+      <workItem from="1553608914159" duration="2822000" />
+      <workItem from="1553613747896" duration="5768000" />
+      <workItem from="1553622456350" duration="1660000" />
+      <workItem from="1553674475989" duration="4284000" />
+      <workItem from="1553699427871" duration="8708000" />
+      <workItem from="1553767353008" duration="2013000" />
+    </task>
+    <task id="LOCAL-00001" summary="profit software test">
+      <created>1553782009696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553782009696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="profit software test">
+      <created>1553782103410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553782103410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="profit software test">
+      <created>1553782748994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553782748994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25255000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28784648" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32528856" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="CheckStyle" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32952183" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.5131165" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.08635394" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="profit software test" />
+    <option name="LAST_COMMIT_MESSAGE" value="profit software test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/profitSoftware/robot/openGoogleTest.robot" />
+    <entry file="file://$PROJECT_DIR$/src/test/robotframework/acceptance/openGoogleTest.robot" />
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/java/com/profitSoftware/robot/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/main/java/com/profitSoftware/robot/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/succesfulSearchTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/aboutPageTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/profitSoftwareTests.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/profitSoftware/robot/jumpUpTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>profitSoftwareTests</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:2.1_3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
