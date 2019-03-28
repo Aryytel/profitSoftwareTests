@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd04c41-ce25-4b78-9f84-a8eba1791c89" name="Default Changelist" comment="profit software test">
-      <change afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot" afterDir="false" />
-      <change afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchTests.robot" afterDir="false" />
+      <change afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/libraries/iti0050.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AL01A_14/.idea/uiDesigner.xml" afterDir="false" />
@@ -44,18 +43,6 @@
       <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Testing.class" afterDir="false" />
       <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/succesfulSearchTest.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot" beforeDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/TEST-acceptance.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/TEST-acceptance.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/output.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/output.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/report.html" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/report.html" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/selenium-screenshot-1.png" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/selenium-screenshot-1.png" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/TEST-com.profitSoftware.robot.AppTest.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/TEST-com.profitSoftware.robot.AppTest.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/com.profitSoftware.robot.AppTest.txt" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/com.profitSoftware.robot.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW03/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -107,8 +94,10 @@
           <entry key="html" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
+          <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="robot" value="12" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -117,7 +106,9 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="Robot Feature" value="12" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -136,14 +127,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="68">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#152#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -301,7 +311,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790298296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553791201275" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/profitSoftwareTests" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -419,7 +429,7 @@
       <workItem from="1553622456350" duration="1660000" />
       <workItem from="1553674475989" duration="4284000" />
       <workItem from="1553699427871" duration="8708000" />
-      <workItem from="1553767353008" duration="6351000" />
+      <workItem from="1553767353008" duration="7157000" />
     </task>
     <task id="LOCAL-00001" summary="profit software test">
       <created>1553782009696</created>
@@ -456,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553783270187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="profit software test">
+      <created>1553790533966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553790533966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29593000" />
+    <option name="totallyTimeSpent" value="30399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -516,13 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -608,11 +618,26 @@
     </entry>
     <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
