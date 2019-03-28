@@ -2,7 +2,7 @@
 
 Test task for Profit Software summer internship.
 
-<h2> What is done
+## What is done
 
 Created a Robot Framework script for testing DuckDuckGo website 
 This project fulfills the following requirements:
@@ -12,7 +12,7 @@ This project fulfills the following requirements:
 
 
 
-<h2> How to use
+## How to use
 
 In my implementation I ran the tests using Maven controls in IntelliJ IDEA.
 
@@ -37,16 +37,15 @@ Running tests:
 
 
 
-<h2> Test suites
+## Test suites
 
 Here are the descriptions for the created tests.
 
-<h3> searchTests
+### searchTests
 
 * Search in DuckDuckGo with correct spelling
 * Search in DuckDuckGo with incorrect spelling
-
-<h3> pageLinkTests
+### pageLinkTests
 
 * Open sidebar
 * Click embedded link "Help Spread DuckDuckGO"
