@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd04c41-ce25-4b78-9f84-a8eba1791c89" name="Default Changelist" comment="profit software test">
+      <change afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot" afterDir="false" />
+      <change afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchTests.robot" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/libraries/iti0050.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AL01A_14/.idea/uiDesigner.xml" afterDir="false" />
@@ -41,6 +43,19 @@
       <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Node.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../out/production/HW01/ee/ttu/algoritmid/dancers/Testing.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot" beforeDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/succesfulSearchTest.robot" beforeDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot" beforeDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/TEST-acceptance.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/TEST-acceptance.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/output.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/output.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/report.html" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/report.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/selenium-screenshot-1.png" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/selenium-screenshot-1.png" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/TEST-com.profitSoftware.robot.AppTest.xml" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/TEST-com.profitSoftware.robot.AppTest.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/com.profitSoftware.robot.AppTest.txt" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/profitSoftwareTests/target/surefire-reports/com.profitSoftware.robot.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW03/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -74,16 +89,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="15" />
-          <entry key="robot" value="1569" />
-          <entry key="txt" value="59" />
+          <entry key="robot" value="1960" />
+          <entry key="txt" value="77" />
           <entry key="xml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="15" />
-          <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Robot Feature" value="1569" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Robot Feature" value="1960" />
           <entry key="XML" value="42" />
         </counts>
       </usages-collector>
@@ -92,28 +107,42 @@
           <entry key="html" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
-          <entry key="robot" value="8" />
+          <entry key="png" value="1" />
+          <entry key="robot" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="Robot Feature" value="8" />
+          <entry key="Robot Feature" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchTests.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
                 <element signature="e#0#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +164,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/IdeaProjects/profitSoftwareTests" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,6 +183,10 @@
         <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot" />
         <option value="$PROJECT_DIR$/src/main/java/com/profitSoftware/robot/aboutPageTest.robot" />
         <option value="$PROJECT_DIR$/src/test/robotframework/acceptance/duckDuckGo/aboutPageTest.robot" />
+        <option value="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot" />
+        <option value="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchDuckDuckGo.robot" />
+        <option value="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchTests.robot" />
+        <option value="$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot" />
       </list>
     </option>
   </component>
@@ -207,6 +240,52 @@
             </path>
             <path>
               <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
+              <item name="duckDuckGo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profitSoftwareTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profitSoftwareTests" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -222,7 +301,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553783241360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790298296" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/profitSoftwareTests" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,12 +373,12 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="true" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$USER_HOME$/IdeaProjects/profitSoftwareTests" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="robotframework:run" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$USER_HOME$/IdeaProjects/profitSoftwareTests/pom.xml" goal="robotframework:run" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -340,7 +419,7 @@
       <workItem from="1553622456350" duration="1660000" />
       <workItem from="1553674475989" duration="4284000" />
       <workItem from="1553699427871" duration="8708000" />
-      <workItem from="1553767353008" duration="2013000" />
+      <workItem from="1553767353008" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="profit software test">
       <created>1553782009696</created>
@@ -363,14 +442,29 @@
       <option name="project" value="LOCAL" />
       <updated>1553782748994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="profit software test">
+      <created>1553783221033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553783221033</updated>
+    </task>
+    <task id="LOCAL-00005" summary="profit software test">
+      <created>1553783270187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553783270187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25255000" />
+    <option name="totallyTimeSpent" value="29593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28784648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -381,15 +475,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32528856" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.3243243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952183" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.5131165" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.2900208" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49840087" visible="true" weight="0.512474" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -439,26 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/succesfulSearchTest.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -489,12 +563,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot">
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/unsuccesfulSearchTest.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/succesfulSearchTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/helpSpreadTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/target/robotframework-reports/selenium-screenshot-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/searchTests.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/profitSoftwareTests/src/test/robotframework/acceptance/duckDuckGo/menuTests.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#152#0" expanded="true" />
           </folding>
         </state>
       </provider>

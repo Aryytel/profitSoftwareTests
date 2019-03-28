@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_181)" generated="20190327 23:20:10.134">
-<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance" name="Acceptance" id="s1">
-<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo" name="duckDuckGo" id="s1-s1">
-<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo\aboutPageTest.robot" name="aboutPageTest" id="s1-s1-s1">
-<test name="Open About wrapper and About Us page from there" id="s1-s1-s1-t1">
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_181)" generated="20190328 18:20:56.221">
+<suite source="C:\Users\andre\IdeaProjects\profitSoftwareTests\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Users\andre\IdeaProjects\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo" name="duckDuckGo" id="s1-s1">
+<suite source="C:\Users\andre\IdeaProjects\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo\menuTests.robot" name="menuTests" id="s1-s1-s1">
+<test name="Open sidebar" id="s1-s1-s1-t1">
 <kw name="Given Browser is opened to DuckDuckGo page">
 <kw library="Selenium2Library" name="Open Browser">
 <doc>Opens a new browser instance to given URL.&lt;br&gt;
@@ -154,25 +154,50 @@
 <arg>http://start.duckduckgo.com</arg>
 <arg>chrome</arg>
 </arguments>
-<msg level="INFO" timestamp="20190327 23:20:10.993">browserName: chrome</msg>
-<msg level="INFO" timestamp="20190327 23:20:10.994">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
-<msg level="INFO" timestamp="20190327 23:20:15.273">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 62432
+<msg level="INFO" timestamp="20190328 18:20:56.961">browserName: chrome</msg>
+<msg level="INFO" timestamp="20190328 18:20:56.962">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
+<msg level="INFO" timestamp="20190328 18:21:00.972">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 37705
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.</msg>
-<status endtime="20190327 23:20:15.275" starttime="20190327 23:20:10.988" status="PASS"></status>
+<status endtime="20190328 18:21:00.975" starttime="20190328 18:20:56.956" status="PASS"></status>
 </kw>
-<status endtime="20190327 23:20:15.276" starttime="20190327 23:20:10.985" status="PASS"></status>
+<status endtime="20190328 18:21:00.976" starttime="20190328 18:20:56.953" status="PASS"></status>
 </kw>
-<kw name="When Upper right icon is pressed">
+<kw name="When Sidebar button is pressed">
 <kw library="Selenium2Library" name="Click Element">
 <doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
  &lt;br&gt;
  Key attributes for arbitrary elements are id and name. See `Introduction`
  for details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;</doc>
 <arguments>
-<arg>xpath://*[@id="pg-index"]/div/div[1]/div/a</arg>
+<arg>xpath=//*[@id="pg-index"]/div[1]/div[1]/div/a</arg>
 </arguments>
-<msg level="INFO" timestamp="20190327 23:20:15.288">Clicking element 'xpath://*[@id="pg-index"]/div/div[1]/div/a'.</msg>
+<msg level="INFO" timestamp="20190328 18:21:00.984">Clicking element 'xpath=//*[@id="pg-index"]/div[1]/div[1]/div/a'.</msg>
+<status endtime="20190328 18:21:01.067" starttime="20190328 18:21:00.981" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:01.069" starttime="20190328 18:21:00.978" status="PASS"></status>
+</kw>
+<kw name="Then Sidebar menu is opened">
+<kw library="Selenium2Library" name="Wait Until Page Not Contains">
+<doc>Waits until the current page does not contain &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the text disappears. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The text to verify.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//*[@id="pg-index"]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]</arg>
+</arguments>
+<status endtime="20190328 18:21:01.090" starttime="20190328 18:21:01.073" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Button">
+<doc>Click on the button identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for buttons are id, name and value. See `Introduction` for
+ details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the link.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//*[@id="pg-index"]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:01.094">Clicking button 'xpath=//*[@id="pg-index"]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]'.</msg>
 <kw library="Selenium2Library" name="Capture Page Screenshot">
 <doc>Take a screenshot of the current page and embed it into the log.&lt;br&gt;
  &lt;br&gt;
@@ -186,34 +211,694 @@ Please protect ports used by ChromeDriver and related test frameworks to prevent
  A CSS can be used to modify how the screenshot is taken. By default the
  background color is changed to avoid possible problems with background
  leaking when the page layout is somehow broken.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;filename&lt;/b&gt;&amp;nbsp;Default=NONE. Name of the file to write.&lt;br&gt;</doc>
-<msg level="INFO" html="yes" timestamp="20190327 23:20:15.767">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status endtime="20190327 23:20:15.768" starttime="20190327 23:20:15.334" status="PASS"></status>
+<msg level="INFO" html="yes" timestamp="20190328 18:21:01.490">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status endtime="20190328 18:21:01.491" starttime="20190328 18:21:01.147" status="PASS"></status>
 </kw>
-<msg level="FAIL" timestamp="20190327 23:20:15.789">Element locator 'xpath://*[@id="pg-index"]/div/div[1]/div/a' did not match any elements.</msg>
-<status endtime="20190327 23:20:15.791" starttime="20190327 23:20:15.284" status="FAIL"></status>
+<msg level="FAIL" timestamp="20190328 18:21:01.507">Element locator 'xpath=//*[@id="pg-index"]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]' did not match any elements.</msg>
+<status endtime="20190328 18:21:01.508" starttime="20190328 18:21:01.091" status="FAIL"></status>
 </kw>
-<status endtime="20190327 23:20:15.792" starttime="20190327 23:20:15.277" status="FAIL"></status>
+<status endtime="20190328 18:21:01.510" starttime="20190328 18:21:01.071" status="FAIL"></status>
 </kw>
-<status critical="yes" endtime="20190327 23:20:15.793" starttime="20190327 23:20:10.980" status="FAIL">Element locator 'xpath://*[@id="pg-index"]/div/div[1]/div/a' did not match any elements.</status>
+<status critical="yes" endtime="20190328 18:21:01.511" starttime="20190328 18:20:56.950" status="FAIL">Element locator 'xpath=//*[@id="pg-index"]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]' did not match any elements.</status>
 </test>
 <doc>A resource file containing the application specific keywords</doc>
-<status endtime="20190327 23:20:15.799" starttime="20190327 23:20:10.337" status="FAIL"></status>
+<status endtime="20190328 18:21:01.514" starttime="20190328 18:20:56.398" status="FAIL"></status>
 </suite>
-<status endtime="20190327 23:20:15.806" starttime="20190327 23:20:10.326" status="FAIL"></status>
+<suite source="C:\Users\andre\IdeaProjects\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo\searchTests.robot" name="searchTests" id="s1-s1-s2">
+<test name="Search in DuckDuckGo with correct spelling" id="s1-s1-s2-t1">
+<kw name="Given Browser is opened to DuckDuckGo page">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;
+ &lt;br&gt;
+ Possible values for browser are as follows:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;firefox&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ff&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;internetexplorer&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ie&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;googlechrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;gc&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;opera&lt;/td&gt;
+ &lt;td&gt;Opera&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;phantomjs&lt;/td&gt;
+ &lt;td&gt;PhantomJS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunitwithjs&lt;/td&gt;
+ &lt;td&gt;HTMLUnit with Javascipt support&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;safari&lt;/td&gt;
+ &lt;td&gt;Safari&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ipad&lt;/td&gt;
+ &lt;td&gt;iPad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iphone&lt;/td&gt;
+ &lt;td&gt;iPhone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;android&lt;/td&gt;
+ &lt;td&gt;Android&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunit&lt;/td&gt;
+ &lt;td&gt;HTMLUnit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Returns the index of the newly created browser instance which can be used
+ later to switch back to it. Index starts from 1 and is reset back to it
+ when the `Close All Browsers` keyword is used.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;DesiredCapabilities&lt;/b&gt;&lt;br&gt;
+ The DesiredCapabilities can be specified in a simple key:value format or
+ as a JSON object. With the JSON format more complex parameters, like the
+ proxy, can be configured.&lt;br&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as simple string:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;platform:Windows 8,browserName:firefox,version:25&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as JSON object:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"platform":"Windows 8",&lt;br&gt;
+ &amp;emsp;"browserName":"firefox",&lt;br&gt;
+ &amp;emsp;"version":"25",&lt;br&gt;
+ &amp;emsp;"proxy":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"proxyType":"manual",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"httpProxy":"localhost:8118"&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;BrowserOptions&lt;/b&gt;&lt;br&gt;
+ The BrowserOptions can be specified as JSON object to set more complex
+ browser specific parameters. At the moment only the following browsers
+ with the listed options are implemented.&lt;br&gt;
+ &lt;br&gt;
+ Firefox:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"preferences":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.currentVersion":"1.8.1",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.addonBarOpened":true,&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.enableSites":true&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ &amp;emsp;"extensions":&lt;br&gt;
+ &amp;emsp;[&lt;br&gt;
+ &amp;emsp;&amp;emsp;"firebug-1.8.1.xpi",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"modify_headers-0.7.1.1-fx.xpi"&lt;br&gt;
+ &amp;emsp;]&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;Internet Explorer&lt;/b&gt;&lt;br&gt;
+ Note, that you will encounter strange behavior, if you open multiple
+ Internet Explorer browser instances. That is also why `Switch Browser`
+ only works with one IE browser at most. For more information see: &lt;a
+ href=
+ "http://selenium-grid.seleniumhq.org/faq.html#i_get_some_strange_errors_when_i_run_multiple_internet_explorer_instances_on_the_same_machine"
+ &gt;Strange errors with multiple IE instances&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;url&lt;/b&gt;&amp;nbsp;The URL to open in the newly created browser instance.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserName&lt;/b&gt;&amp;nbsp;Default=firefox. Optional name of the browser to start.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;alias&lt;/b&gt;&amp;nbsp;Default=NONE. Optional alias for the newly created browser
+            instance. The alias can be used later for switching between
+            browsers instances, just as returned index.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;remoteUrl&lt;/b&gt;&amp;nbsp;Default=False. Optional remote grid URL. When specified no
+            local WebDriver instance is created, but a network connection
+            to a Selenium 2 WebDriver Grid Hub at the given URL is opened.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;desiredCapabilities&lt;/b&gt;&amp;nbsp;Default=NONE. Optional desired capabilities of the newly
+            created remote browser instances can be specified in a simple
+            key1:val1,key2:val2 format or as a JSON object (see examples
+            above). Used to communicate to the remote grid, which kind of
+            browser, etc. should be used. For more information see: &lt;a
+            href=
+            "http://code.google.com/p/selenium/wiki/DesiredCapabilities"
+            &gt;DesiredCapabilities&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserOptions&lt;/b&gt;&amp;nbsp;Default=NONE. Extended browser options as JSON structure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The index of the newly created browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<arguments>
+<arg>http://start.duckduckgo.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:01.540">browserName: chrome</msg>
+<msg level="INFO" timestamp="20190328 18:21:01.541">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
+<msg level="INFO" timestamp="20190328 18:21:04.801">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 21976
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.</msg>
+<status endtime="20190328 18:21:04.802" starttime="20190328 18:21:01.537" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:04.803" starttime="20190328 18:21:01.535" status="PASS"></status>
+</kw>
+<kw name="When User searches Scarlett Johansson">
+<kw library="Selenium2Library" name="Wait Until Element Is Visible">
+<doc>Waits until the element identified by &lt;b&gt;locator&lt;/b&gt; is visible.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the element gets visible. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about locators and timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Field}</arg>
+<arg>5</arg>
+</arguments>
+<status endtime="20190328 18:21:04.838" starttime="20190328 18:21:04.806" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Input Text">
+<doc>Types the given &lt;b&gt;text&lt;/b&gt; into the text field identified by
+ &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for input fields are id and name. See `Introduction` for
+ details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the text field.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The password to input&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Field}</arg>
+<arg>Scarlett Johansson</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:04.843">Typing text 'Scarlett Johansson' into text field 'id=search_form_input_homepage'</msg>
+<status endtime="20190328 18:21:04.978" starttime="20190328 18:21:04.839" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for arbitrary elements are id and name. See `Introduction`
+ for details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Button}</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:04.989">Clicking element 'id=search_button_homepage'.</msg>
+<status endtime="20190328 18:21:06.288" starttime="20190328 18:21:04.979" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:06.289" starttime="20190328 18:21:04.804" status="PASS"></status>
+</kw>
+<kw name="Then Results contain Scarlett Johansson's IMDb page">
+<kw library="Selenium2Library" name="Wait Until Page Contains">
+<doc>Waits until the current page contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the text appears. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The text to verify.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>Scarlett Johansson - IMDb</arg>
+</arguments>
+<status endtime="20190328 18:21:06.313" starttime="20190328 18:21:06.292" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Page Should Contain Link">
+<doc>Verify the link identified by &lt;b&gt;locator&lt;/b&gt; is found on the current
+ page.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for links are id, name, href and link text. See
+ `Introduction` for details about log levels and locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the link.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;logLevel&lt;/b&gt;&amp;nbsp;Default=INFO. Optional log level.&lt;br&gt;</doc>
+<arguments>
+<arg>link=https://www.imdb.com/name/nm0424060/</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:06.419">Current page contains link 'link=https://www.imdb.com/name/nm0424060/'.</msg>
+<status endtime="20190328 18:21:06.420" starttime="20190328 18:21:06.314" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:06.421" starttime="20190328 18:21:06.290" status="PASS"></status>
+</kw>
+<kw type="teardown" library="Selenium2Library" name="Close Browser">
+<doc>Closes the current browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Open Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<status endtime="20190328 18:21:07.701" starttime="20190328 18:21:06.422" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20190328 18:21:07.701" starttime="20190328 18:21:01.533" status="PASS"></status>
+</test>
+<test name="Search in DuckDuckGo with incorrect spelling" id="s1-s1-s2-t2">
+<kw name="Given Browser is opened to DuckDuckGo page">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;
+ &lt;br&gt;
+ Possible values for browser are as follows:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;firefox&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ff&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;internetexplorer&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ie&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;googlechrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;gc&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;opera&lt;/td&gt;
+ &lt;td&gt;Opera&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;phantomjs&lt;/td&gt;
+ &lt;td&gt;PhantomJS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunitwithjs&lt;/td&gt;
+ &lt;td&gt;HTMLUnit with Javascipt support&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;safari&lt;/td&gt;
+ &lt;td&gt;Safari&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ipad&lt;/td&gt;
+ &lt;td&gt;iPad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iphone&lt;/td&gt;
+ &lt;td&gt;iPhone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;android&lt;/td&gt;
+ &lt;td&gt;Android&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunit&lt;/td&gt;
+ &lt;td&gt;HTMLUnit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Returns the index of the newly created browser instance which can be used
+ later to switch back to it. Index starts from 1 and is reset back to it
+ when the `Close All Browsers` keyword is used.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;DesiredCapabilities&lt;/b&gt;&lt;br&gt;
+ The DesiredCapabilities can be specified in a simple key:value format or
+ as a JSON object. With the JSON format more complex parameters, like the
+ proxy, can be configured.&lt;br&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as simple string:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;platform:Windows 8,browserName:firefox,version:25&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as JSON object:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"platform":"Windows 8",&lt;br&gt;
+ &amp;emsp;"browserName":"firefox",&lt;br&gt;
+ &amp;emsp;"version":"25",&lt;br&gt;
+ &amp;emsp;"proxy":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"proxyType":"manual",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"httpProxy":"localhost:8118"&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;BrowserOptions&lt;/b&gt;&lt;br&gt;
+ The BrowserOptions can be specified as JSON object to set more complex
+ browser specific parameters. At the moment only the following browsers
+ with the listed options are implemented.&lt;br&gt;
+ &lt;br&gt;
+ Firefox:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"preferences":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.currentVersion":"1.8.1",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.addonBarOpened":true,&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.enableSites":true&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ &amp;emsp;"extensions":&lt;br&gt;
+ &amp;emsp;[&lt;br&gt;
+ &amp;emsp;&amp;emsp;"firebug-1.8.1.xpi",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"modify_headers-0.7.1.1-fx.xpi"&lt;br&gt;
+ &amp;emsp;]&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;Internet Explorer&lt;/b&gt;&lt;br&gt;
+ Note, that you will encounter strange behavior, if you open multiple
+ Internet Explorer browser instances. That is also why `Switch Browser`
+ only works with one IE browser at most. For more information see: &lt;a
+ href=
+ "http://selenium-grid.seleniumhq.org/faq.html#i_get_some_strange_errors_when_i_run_multiple_internet_explorer_instances_on_the_same_machine"
+ &gt;Strange errors with multiple IE instances&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;url&lt;/b&gt;&amp;nbsp;The URL to open in the newly created browser instance.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserName&lt;/b&gt;&amp;nbsp;Default=firefox. Optional name of the browser to start.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;alias&lt;/b&gt;&amp;nbsp;Default=NONE. Optional alias for the newly created browser
+            instance. The alias can be used later for switching between
+            browsers instances, just as returned index.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;remoteUrl&lt;/b&gt;&amp;nbsp;Default=False. Optional remote grid URL. When specified no
+            local WebDriver instance is created, but a network connection
+            to a Selenium 2 WebDriver Grid Hub at the given URL is opened.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;desiredCapabilities&lt;/b&gt;&amp;nbsp;Default=NONE. Optional desired capabilities of the newly
+            created remote browser instances can be specified in a simple
+            key1:val1,key2:val2 format or as a JSON object (see examples
+            above). Used to communicate to the remote grid, which kind of
+            browser, etc. should be used. For more information see: &lt;a
+            href=
+            "http://code.google.com/p/selenium/wiki/DesiredCapabilities"
+            &gt;DesiredCapabilities&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserOptions&lt;/b&gt;&amp;nbsp;Default=NONE. Extended browser options as JSON structure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The index of the newly created browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<arguments>
+<arg>http://start.duckduckgo.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:07.709">browserName: chrome</msg>
+<msg level="INFO" timestamp="20190328 18:21:07.710">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
+<msg level="INFO" timestamp="20190328 18:21:11.091">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 26014
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.</msg>
+<status endtime="20190328 18:21:11.093" starttime="20190328 18:21:07.706" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:11.095" starttime="20190328 18:21:07.705" status="PASS"></status>
+</kw>
+<kw name="When User searches Scarlet Johanson">
+<kw library="Selenium2Library" name="Wait Until Element Is Visible">
+<doc>Waits until the element identified by &lt;b&gt;locator&lt;/b&gt; is visible.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the element gets visible. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about locators and timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Field}</arg>
+<arg>5</arg>
+</arguments>
+<status endtime="20190328 18:21:11.135" starttime="20190328 18:21:11.099" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Input Text">
+<doc>Types the given &lt;b&gt;text&lt;/b&gt; into the text field identified by
+ &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for input fields are id and name. See `Introduction` for
+ details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the text field.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The password to input&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Field}</arg>
+<arg>Scarlet Johanson</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:11.139">Typing text 'Scarlet Johanson' into text field 'id=search_form_input_homepage'</msg>
+<status endtime="20190328 18:21:11.265" starttime="20190328 18:21:11.136" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for arbitrary elements are id and name. See `Introduction`
+ for details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;</doc>
+<arguments>
+<arg>${DuckDuckGo.Search.Button}</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:11.270">Clicking element 'id=search_button_homepage'.</msg>
+<status endtime="20190328 18:21:12.405" starttime="20190328 18:21:11.266" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:12.406" starttime="20190328 18:21:11.096" status="PASS"></status>
+</kw>
+<kw name="Then Results contain suggestions for other searches">
+<kw library="Selenium2Library" name="Wait Until Page Contains">
+<doc>Waits until the current page contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the text appears. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The text to verify.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>Including results for</arg>
+</arguments>
+<status endtime="20190328 18:21:12.428" starttime="20190328 18:21:12.408" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Wait Until Page Contains">
+<doc>Waits until the current page contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the text appears. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The text to verify.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>Search only for</arg>
+</arguments>
+<status endtime="20190328 18:21:12.445" starttime="20190328 18:21:12.429" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:12.446" starttime="20190328 18:21:12.407" status="PASS"></status>
+</kw>
+<kw type="teardown" library="Selenium2Library" name="Close Browser">
+<doc>Closes the current browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Open Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<status endtime="20190328 18:21:13.621" starttime="20190328 18:21:12.447" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20190328 18:21:13.621" starttime="20190328 18:21:07.703" status="PASS"></status>
+</test>
+<test name="Click embedded link &quot;Help Spread DuckDuckGO&quot;" id="s1-s1-s2-t3">
+<kw name="Given Browser is opened to DuckDuckGo page">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;
+ &lt;br&gt;
+ Possible values for browser are as follows:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;firefox&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ff&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;internetexplorer&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ie&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;googlechrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;gc&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;opera&lt;/td&gt;
+ &lt;td&gt;Opera&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;phantomjs&lt;/td&gt;
+ &lt;td&gt;PhantomJS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunitwithjs&lt;/td&gt;
+ &lt;td&gt;HTMLUnit with Javascipt support&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;safari&lt;/td&gt;
+ &lt;td&gt;Safari&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ipad&lt;/td&gt;
+ &lt;td&gt;iPad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iphone&lt;/td&gt;
+ &lt;td&gt;iPhone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;android&lt;/td&gt;
+ &lt;td&gt;Android&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunit&lt;/td&gt;
+ &lt;td&gt;HTMLUnit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Returns the index of the newly created browser instance which can be used
+ later to switch back to it. Index starts from 1 and is reset back to it
+ when the `Close All Browsers` keyword is used.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;DesiredCapabilities&lt;/b&gt;&lt;br&gt;
+ The DesiredCapabilities can be specified in a simple key:value format or
+ as a JSON object. With the JSON format more complex parameters, like the
+ proxy, can be configured.&lt;br&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as simple string:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;platform:Windows 8,browserName:firefox,version:25&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as JSON object:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"platform":"Windows 8",&lt;br&gt;
+ &amp;emsp;"browserName":"firefox",&lt;br&gt;
+ &amp;emsp;"version":"25",&lt;br&gt;
+ &amp;emsp;"proxy":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"proxyType":"manual",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"httpProxy":"localhost:8118"&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;BrowserOptions&lt;/b&gt;&lt;br&gt;
+ The BrowserOptions can be specified as JSON object to set more complex
+ browser specific parameters. At the moment only the following browsers
+ with the listed options are implemented.&lt;br&gt;
+ &lt;br&gt;
+ Firefox:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"preferences":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.currentVersion":"1.8.1",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.addonBarOpened":true,&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.enableSites":true&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ &amp;emsp;"extensions":&lt;br&gt;
+ &amp;emsp;[&lt;br&gt;
+ &amp;emsp;&amp;emsp;"firebug-1.8.1.xpi",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"modify_headers-0.7.1.1-fx.xpi"&lt;br&gt;
+ &amp;emsp;]&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;Internet Explorer&lt;/b&gt;&lt;br&gt;
+ Note, that you will encounter strange behavior, if you open multiple
+ Internet Explorer browser instances. That is also why `Switch Browser`
+ only works with one IE browser at most. For more information see: &lt;a
+ href=
+ "http://selenium-grid.seleniumhq.org/faq.html#i_get_some_strange_errors_when_i_run_multiple_internet_explorer_instances_on_the_same_machine"
+ &gt;Strange errors with multiple IE instances&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;url&lt;/b&gt;&amp;nbsp;The URL to open in the newly created browser instance.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserName&lt;/b&gt;&amp;nbsp;Default=firefox. Optional name of the browser to start.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;alias&lt;/b&gt;&amp;nbsp;Default=NONE. Optional alias for the newly created browser
+            instance. The alias can be used later for switching between
+            browsers instances, just as returned index.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;remoteUrl&lt;/b&gt;&amp;nbsp;Default=False. Optional remote grid URL. When specified no
+            local WebDriver instance is created, but a network connection
+            to a Selenium 2 WebDriver Grid Hub at the given URL is opened.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;desiredCapabilities&lt;/b&gt;&amp;nbsp;Default=NONE. Optional desired capabilities of the newly
+            created remote browser instances can be specified in a simple
+            key1:val1,key2:val2 format or as a JSON object (see examples
+            above). Used to communicate to the remote grid, which kind of
+            browser, etc. should be used. For more information see: &lt;a
+            href=
+            "http://code.google.com/p/selenium/wiki/DesiredCapabilities"
+            &gt;DesiredCapabilities&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserOptions&lt;/b&gt;&amp;nbsp;Default=NONE. Extended browser options as JSON structure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The index of the newly created browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<arguments>
+<arg>http://start.duckduckgo.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:13.629">browserName: chrome</msg>
+<msg level="INFO" timestamp="20190328 18:21:13.630">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
+<msg level="INFO" timestamp="20190328 18:21:16.931">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 47236
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.</msg>
+<status endtime="20190328 18:21:16.932" starttime="20190328 18:21:13.626" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:16.934" starttime="20190328 18:21:13.624" status="PASS"></status>
+</kw>
+<kw name="When Link &quot;Help Spread DuckDuckGO&quot; is pressed">
+<kw library="Selenium2Library" name="Click Link">
+<doc>Click on the link identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for links are id, name, href and link text. See
+ `Introduction` for details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the link.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//*[@id="content_homepage"]/div/div[3]/div/div/span/a</arg>
+</arguments>
+<msg level="INFO" timestamp="20190328 18:21:16.940">Clicking link 'xpath=//*[@id="content_homepage"]/div/div[3]/div/div/span/a'.</msg>
+<status endtime="20190328 18:21:17.008" starttime="20190328 18:21:16.937" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:17.009" starttime="20190328 18:21:16.936" status="PASS"></status>
+</kw>
+<kw name="Then Result is &quot;Friends Don't Let Friends Get Tracked!&quot; page">
+<kw library="Selenium2Library" name="Wait Until Page Contains">
+<doc>Waits until the current page contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Fails, if the timeout expires, before the text appears. &lt;br&gt;
+ &lt;br&gt;
+ See `Introduction` for details about timeouts.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;text&lt;/b&gt;&amp;nbsp;The text to verify.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;timeout&lt;/b&gt;&amp;nbsp;Default=NONE. Optional timeout interval.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;message&lt;/b&gt;&amp;nbsp;Default=NONE. Optional custom error message.&lt;br&gt;</doc>
+<arguments>
+<arg>We’re setting the new standard of trust online.</arg>
+</arguments>
+<status endtime="20190328 18:21:17.406" starttime="20190328 18:21:17.012" status="PASS"></status>
+</kw>
+<status endtime="20190328 18:21:17.407" starttime="20190328 18:21:17.010" status="PASS"></status>
+</kw>
+<kw type="teardown" library="Selenium2Library" name="Close Browser">
+<doc>Closes the current browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Open Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<status endtime="20190328 18:21:18.589" starttime="20190328 18:21:17.410" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20190328 18:21:18.589" starttime="20190328 18:21:13.622" status="PASS"></status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status endtime="20190328 18:21:18.593" starttime="20190328 18:21:01.521" status="PASS"></status>
 </suite>
-<status endtime="20190327 23:20:15.815" starttime="20190327 23:20:10.142" status="FAIL"></status>
+<status endtime="20190328 18:21:18.606" starttime="20190328 18:20:56.389" status="FAIL"></status>
+</suite>
+<status endtime="20190328 18:21:18.622" starttime="20190328 18:20:56.229" status="FAIL"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1">Critical Tests</stat>
-<stat pass="0" fail="1">All Tests</stat>
+<stat pass="3" fail="1">Critical Tests</stat>
+<stat pass="3" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" name="Acceptance" id="s1">Acceptance</stat>
-<stat pass="0" fail="1" name="duckDuckGo" id="s1-s1">Acceptance.duckDuckGo</stat>
-<stat pass="0" fail="1" name="aboutPageTest" id="s1-s1-s1">Acceptance.duckDuckGo.aboutPageTest</stat>
+<stat pass="3" fail="1" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="3" fail="1" name="duckDuckGo" id="s1-s1">Acceptance.duckDuckGo</stat>
+<stat pass="0" fail="1" name="menuTests" id="s1-s1-s1">Acceptance.duckDuckGo.menuTests</stat>
+<stat pass="3" fail="0" name="searchTests" id="s1-s1-s2">Acceptance.duckDuckGo.searchTests</stat>
 </suite>
 </statistics>
 <errors>

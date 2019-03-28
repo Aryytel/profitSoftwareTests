@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="1" skipped="0" tests="1" name="Acceptance" time="5.673" errors="0">
-<testcase classname="Acceptance.duckDuckGo.aboutPageTest" name="Open About wrapper and About Us page from there" time="4.813">
-<failure message="Element locator 'xpath://*[@id=&quot;pg-index&quot;]/div/div[1]/div/a' did not match any elements." type="AssertionError"></failure>
+<testsuite failures="1" skipped="0" tests="4" name="Acceptance" time="22.393" errors="0">
+<testcase classname="Acceptance.duckDuckGo.menuTests" name="Open sidebar" time="4.561">
+<failure message="Element locator 'xpath=//*[@id=&quot;pg-index&quot;]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]' did not match any elements." type="AssertionError"></failure>
+</testcase>
+<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with correct spelling" time="6.168">
+</testcase>
+<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with incorrect spelling" time="5.918">
+</testcase>
+<testcase classname="Acceptance.duckDuckGo.searchTests" name="Click embedded link &quot;Help Spread DuckDuckGO&quot;" time="4.967">
 </testcase>
 </testsuite>
