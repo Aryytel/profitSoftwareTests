@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_181)" generated="20190327 23:20:10.134">
+<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo" name="duckDuckGo" id="s1-s1">
+<suite source="C:\Users\andre\OneDrive\Desktop\Kool\iti0050 - Algoritmid ja Andmestruktuurid\iti0050\profitSoftwareTests\src\test\robotframework\acceptance\duckDuckGo\aboutPageTest.robot" name="aboutPageTest" id="s1-s1-s1">
+<test name="Open About wrapper and About Us page from there" id="s1-s1-s1-t1">
+<kw name="Given Browser is opened to DuckDuckGo page">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;
+ &lt;br&gt;
+ Possible values for browser are as follows:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;firefox&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ff&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;internetexplorer&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ie&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;googlechrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;gc&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;opera&lt;/td&gt;
+ &lt;td&gt;Opera&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;phantomjs&lt;/td&gt;
+ &lt;td&gt;PhantomJS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunitwithjs&lt;/td&gt;
+ &lt;td&gt;HTMLUnit with Javascipt support&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;safari&lt;/td&gt;
+ &lt;td&gt;Safari&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ipad&lt;/td&gt;
+ &lt;td&gt;iPad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iphone&lt;/td&gt;
+ &lt;td&gt;iPhone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;android&lt;/td&gt;
+ &lt;td&gt;Android&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunit&lt;/td&gt;
+ &lt;td&gt;HTMLUnit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Returns the index of the newly created browser instance which can be used
+ later to switch back to it. Index starts from 1 and is reset back to it
+ when the `Close All Browsers` keyword is used.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;DesiredCapabilities&lt;/b&gt;&lt;br&gt;
+ The DesiredCapabilities can be specified in a simple key:value format or
+ as a JSON object. With the JSON format more complex parameters, like the
+ proxy, can be configured.&lt;br&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as simple string:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;platform:Windows 8,browserName:firefox,version:25&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as JSON object:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"platform":"Windows 8",&lt;br&gt;
+ &amp;emsp;"browserName":"firefox",&lt;br&gt;
+ &amp;emsp;"version":"25",&lt;br&gt;
+ &amp;emsp;"proxy":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"proxyType":"manual",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"httpProxy":"localhost:8118"&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;BrowserOptions&lt;/b&gt;&lt;br&gt;
+ The BrowserOptions can be specified as JSON object to set more complex
+ browser specific parameters. At the moment only the following browsers
+ with the listed options are implemented.&lt;br&gt;
+ &lt;br&gt;
+ Firefox:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"preferences":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.currentVersion":"1.8.1",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.addonBarOpened":true,&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.enableSites":true&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ &amp;emsp;"extensions":&lt;br&gt;
+ &amp;emsp;[&lt;br&gt;
+ &amp;emsp;&amp;emsp;"firebug-1.8.1.xpi",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"modify_headers-0.7.1.1-fx.xpi"&lt;br&gt;
+ &amp;emsp;]&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;Internet Explorer&lt;/b&gt;&lt;br&gt;
+ Note, that you will encounter strange behavior, if you open multiple
+ Internet Explorer browser instances. That is also why `Switch Browser`
+ only works with one IE browser at most. For more information see: &lt;a
+ href=
+ "http://selenium-grid.seleniumhq.org/faq.html#i_get_some_strange_errors_when_i_run_multiple_internet_explorer_instances_on_the_same_machine"
+ &gt;Strange errors with multiple IE instances&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;url&lt;/b&gt;&amp;nbsp;The URL to open in the newly created browser instance.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserName&lt;/b&gt;&amp;nbsp;Default=firefox. Optional name of the browser to start.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;alias&lt;/b&gt;&amp;nbsp;Default=NONE. Optional alias for the newly created browser
+            instance. The alias can be used later for switching between
+            browsers instances, just as returned index.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;remoteUrl&lt;/b&gt;&amp;nbsp;Default=False. Optional remote grid URL. When specified no
+            local WebDriver instance is created, but a network connection
+            to a Selenium 2 WebDriver Grid Hub at the given URL is opened.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;desiredCapabilities&lt;/b&gt;&amp;nbsp;Default=NONE. Optional desired capabilities of the newly
+            created remote browser instances can be specified in a simple
+            key1:val1,key2:val2 format or as a JSON object (see examples
+            above). Used to communicate to the remote grid, which kind of
+            browser, etc. should be used. For more information see: &lt;a
+            href=
+            "http://code.google.com/p/selenium/wiki/DesiredCapabilities"
+            &gt;DesiredCapabilities&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserOptions&lt;/b&gt;&amp;nbsp;Default=NONE. Extended browser options as JSON structure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The index of the newly created browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<arguments>
+<arg>http://start.duckduckgo.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg level="INFO" timestamp="20190327 23:20:10.993">browserName: chrome</msg>
+<msg level="INFO" timestamp="20190327 23:20:10.994">Opening browser 'chrome' to base url 'http://start.duckduckgo.com'</msg>
+<msg level="INFO" timestamp="20190327 23:20:15.273">Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 62432
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.</msg>
+<status endtime="20190327 23:20:15.275" starttime="20190327 23:20:10.988" status="PASS"></status>
+</kw>
+<status endtime="20190327 23:20:15.276" starttime="20190327 23:20:10.985" status="PASS"></status>
+</kw>
+<kw name="When Upper right icon is pressed">
+<kw library="Selenium2Library" name="Click Element">
+<doc>Click on the element identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;
+ &lt;br&gt;
+ Key attributes for arbitrary elements are id and name. See `Introduction`
+ for details about locators.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;locator&lt;/b&gt;&amp;nbsp;The locator to locate the element.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath://*[@id="pg-index"]/div/div[1]/div/a</arg>
+</arguments>
+<msg level="INFO" timestamp="20190327 23:20:15.288">Clicking element 'xpath://*[@id="pg-index"]/div/div[1]/div/a'.</msg>
+<kw library="Selenium2Library" name="Capture Page Screenshot">
+<doc>Take a screenshot of the current page and embed it into the log.&lt;br&gt;
+ &lt;br&gt;
+ The &lt;b&gt;filename&lt;/b&gt; argument specifies the name of the file to write the
+ screenshot into. If no filename is given, the screenshot is saved into
+ file selenium-screenshot-&amp;lt;counter&amp;gt;.png under the directory where
+ the Robot Framework log file is written into. The filename is also
+ considered relative to the same directory, if it is not given in absolute
+ format.&lt;br&gt;
+ &lt;br&gt;
+ A CSS can be used to modify how the screenshot is taken. By default the
+ background color is changed to avoid possible problems with background
+ leaking when the page layout is somehow broken.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;filename&lt;/b&gt;&amp;nbsp;Default=NONE. Name of the file to write.&lt;br&gt;</doc>
+<msg level="INFO" html="yes" timestamp="20190327 23:20:15.767">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status endtime="20190327 23:20:15.768" starttime="20190327 23:20:15.334" status="PASS"></status>
+</kw>
+<msg level="FAIL" timestamp="20190327 23:20:15.789">Element locator 'xpath://*[@id="pg-index"]/div/div[1]/div/a' did not match any elements.</msg>
+<status endtime="20190327 23:20:15.791" starttime="20190327 23:20:15.284" status="FAIL"></status>
+</kw>
+<status endtime="20190327 23:20:15.792" starttime="20190327 23:20:15.277" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20190327 23:20:15.793" starttime="20190327 23:20:10.980" status="FAIL">Element locator 'xpath://*[@id="pg-index"]/div/div[1]/div/a' did not match any elements.</status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status endtime="20190327 23:20:15.799" starttime="20190327 23:20:10.337" status="FAIL"></status>
+</suite>
+<status endtime="20190327 23:20:15.806" starttime="20190327 23:20:10.326" status="FAIL"></status>
+</suite>
+<status endtime="20190327 23:20:15.815" starttime="20190327 23:20:10.142" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="0" fail="1" name="duckDuckGo" id="s1-s1">Acceptance.duckDuckGo</stat>
+<stat pass="0" fail="1" name="aboutPageTest" id="s1-s1-s1">Acceptance.duckDuckGo.aboutPageTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

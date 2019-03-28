@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" skipped="0" tests="1" name="Acceptance" time="5.673" errors="0">
+<testcase classname="Acceptance.duckDuckGo.aboutPageTest" name="Open About wrapper and About Us page from there" time="4.813">
+<failure message="Element locator 'xpath://*[@id=&quot;pg-index&quot;]/div/div[1]/div/a' did not match any elements." type="AssertionError"></failure>
+</testcase>
+</testsuite>
