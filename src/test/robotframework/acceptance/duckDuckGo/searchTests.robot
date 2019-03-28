@@ -18,14 +18,10 @@ Search in DuckDuckGo with incorrect spelling
     When User searches Scarlet Johanson
     Then Results contain suggestions for other searches
 
-Click embedded link "Help Spread DuckDuckGO"
-    Given Browser is opened to DuckDuckGo page
-    When Link "Help Spread DuckDuckGO" is pressed
-    Then Result is "Friends Don't Let Friends Get Tracked!" page
 
 *** Keywords ***
 Browser is opened to DuckDuckGo page
-    Open Browser    http://start.duckduckgo.com  chrome
+    Open Browser    http://www.duckduckgo.com  chrome
 
 User searches Scarlett Johansson
     Wait Until Element Is Visible    ${DuckDuckGo.Search.Field}    5
@@ -44,9 +40,3 @@ User searches Scarlet Johanson
 Results contain suggestions for other searches
     Wait Until Page Contains    Including results for
     Wait Until Page Contains    Search only for
-
-Link "Help Spread DuckDuckGO" is pressed
-    Click Link   xpath=//*[@id="content_homepage"]/div/div[3]/div/div/span/a
-
-Result is "Friends Don't Let Friends Get Tracked!" page
-    Wait Until Page Contains    We’re setting the new standard of trust online.

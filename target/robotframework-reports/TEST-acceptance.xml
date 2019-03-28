@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="1" skipped="0" tests="4" name="Acceptance" time="22.393" errors="0">
-<testcase classname="Acceptance.duckDuckGo.menuTests" name="Open sidebar" time="4.561">
-<failure message="Element locator 'xpath=//*[@id=&quot;pg-index&quot;]/div[1]/div[4]/ul/ul[1]/li[2]/ul/li[4]' did not match any elements." type="AssertionError"></failure>
+<testsuite failures="0" skipped="0" tests="4" name="Acceptance" time="23.677" errors="0">
+<testcase classname="Acceptance.duckDuckGo.menuTests" name="Open sidebar" time="5.410">
 </testcase>
-<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with correct spelling" time="6.168">
+<testcase classname="Acceptance.duckDuckGo.menuTests" name="Click embedded link &quot;Help Spread DuckDuckGO&quot;" time="4.978">
 </testcase>
-<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with incorrect spelling" time="5.918">
+<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with correct spelling" time="6.436">
 </testcase>
-<testcase classname="Acceptance.duckDuckGo.searchTests" name="Click embedded link &quot;Help Spread DuckDuckGO&quot;" time="4.967">
+<testcase classname="Acceptance.duckDuckGo.searchTests" name="Search in DuckDuckGo with incorrect spelling" time="6.061">
 </testcase>
 </testsuite>
